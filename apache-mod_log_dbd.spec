@@ -47,7 +47,7 @@ perl -pi -e "s|-module|-module -avoid-version|g" Makefile*
 
 %build
 
-%configure2_5x \
+%configure2_5x --localstatedir=/var/lib \
     --with-apache=%{_prefix}
 
 %make
