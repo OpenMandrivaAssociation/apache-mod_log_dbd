@@ -22,7 +22,7 @@ Requires:	apache-conf >= %{apache_version}
 Requires:	apache >= %{apache_version}
 BuildRequires:	apache-devel >= %{apache_version}
 BuildRequires:	file
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 mod_log_dbd is a module for Apache 2.2+ that writes access logs to a database
