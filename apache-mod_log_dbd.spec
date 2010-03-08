@@ -8,7 +8,7 @@
 Summary:	Writes access logs to a database using the APR DBD framework
 Name:		apache-%{mod_name}
 Version:	0.2
-Release:	%mkrel 7
+Release:	%mkrel 8
 Group:		System/Servers
 License:	BSD
 URL:		http://bfoz.net/projects/mod_log_dbd/
