@@ -46,6 +46,8 @@ perl -pi -e "s|apxs|%{_sbindir}/apxs|g" Makefile*
 perl -pi -e "s|-module|-module -avoid-version|g" Makefile*
 
 %build
+rm -f fonfigure
+autoreconf -fi
 
 %configure2_5x --localstatedir=/var/lib \
     --with-apache=%{_prefix}
