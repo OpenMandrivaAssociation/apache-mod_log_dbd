@@ -11,7 +11,7 @@ Version:	0.2
 Release:	%mkrel 12
 Group:		System/Servers
 License:	BSD
-URL:		http://bfoz.net/projects/mod_log_dbd/
+URL:		https://bfoz.net/projects/mod_log_dbd/
 Source0: 	http://bfoz.net/projects/mod_log_dbd/release/%{mod_name}-%{version}.tar.bz2
 Source1:	%{mod_conf}
 Requires(pre): rpm-helper
